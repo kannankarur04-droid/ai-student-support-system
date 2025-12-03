@@ -1,4 +1,4 @@
-# 🎓 AI Student Support System
+# 🎓 AI-Powered Student Support System
 
 An intelligent system designed to simplify student interactions by providing automated query responses, academic support, and smarter campus communication.
 
@@ -23,4 +23,8 @@ flowchart TD
     Frontend --> API
     API --> AIEngine
     API --> Database
-    AIEngine -->|Response| Frontend
+![Architecture Diagram](assets/architecture.png)
+![Agent Chat](assets/agent-chat.png)
+![Backend Log](assets/backend-log.png)
+
+
