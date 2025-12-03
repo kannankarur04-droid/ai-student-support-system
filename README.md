@@ -23,8 +23,4 @@ flowchart TD
     Frontend --> API
     API --> AIEngine
     API --> Database
-![Architecture Diagram](assets/architecture.png)
-![Agent Chat](assets/agent-chat.png)
-![Backend Log](assets/backend-log.png)
-
-
+    AIEngine -->|Response| Frontend
